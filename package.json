@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "server": "node server/index.js",
+    "dev": "run-p server",
+    "postinstall": "cd ./base-api && yarn && cd ../server && yarn && cd ../api-dados-geograficos && yarn && cd ../api-pessoas && yarn"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}

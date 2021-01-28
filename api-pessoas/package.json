@@ -1,0 +1,14 @@
+{
+  "name": "api-pessoas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "base-api": "file:../base-api",
+    "dotenv": "^8.2.0",
+    "form-data": "^3.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.10.11"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "api-dados-geograficos",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "base-api": "../base-api",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.10.13"
+  }
+}
